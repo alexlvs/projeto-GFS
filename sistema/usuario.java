@@ -19,8 +19,8 @@ public class usuario {
         ResultSet resultSet = null;
 
         try {
-
-            connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/seu_banco_de_dados", "usuario", "senha");
+                //banco
+            connection = DriverManager.getConnection("", "", "");
 
             String query = "SELECT * FROM usuarios WHERE username = ? AND password = ?";
             statement = connection.prepareStatement(query);
