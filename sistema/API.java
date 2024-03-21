@@ -1,3 +1,4 @@
+package sistema;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
@@ -78,11 +79,10 @@ public class API {
     }
 
     public static List<Movie> searchMovie(String movieTitle) {
-    
         throw new UnsupportedOperationException("Unimplemented method 'searchMovie'");
     }
 
-    public static List<Serie> searchSeries(String seriesTitle) 
+    public static List<Serie> searchSeries(String seriesTitle) {
         throw new UnsupportedOperationException("Unimplemented method 'searchSeries'");
     }
 }
