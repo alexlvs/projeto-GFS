@@ -78,12 +78,11 @@ public class API {
     }
 
     public static List<Movie> searchMovie(String movieTitle) {
-        // TODO Auto-generated method stub
+    
         throw new UnsupportedOperationException("Unimplemented method 'searchMovie'");
     }
 
-    public static List<Serie> searchSeries(String seriesTitle) {
-        // TODO Auto-generated method stub
+    public static List<Serie> searchSeries(String seriesTitle) 
         throw new UnsupportedOperationException("Unimplemented method 'searchSeries'");
     }
 }
